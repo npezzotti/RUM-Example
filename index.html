@@ -19,16 +19,7 @@
     <a href="https://app.datadoghq.com/rum/list">https://app.datadoghq.com/rum/list</a>
     <br>
     <button id="counter">Click Me</button>
-    <script>
-        const counter = document.getElementById("counter");
-        counter.addEventListener('click', () => {
-            if (counter.innerText === "Click Me") {
-                counter.innerText = 1;
-            } else {
-                let newValue = Number(counter.innerText) + 1;
-                counter.innerText = newValue;
-            };
-        }); 
-    </script>
 </body>
+<script src="js/index.js" type="text/javascript"></script>
 </html>
+
