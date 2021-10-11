@@ -7,7 +7,7 @@ module.exports = {
   plugins: [
     new webpack.SourceMapDevToolPlugin({
       noSources: false,
-      filename: 'bundle.map'
+      filename: 'bundle.js.map'
     }),
   ],
   optimization: {
@@ -15,6 +15,6 @@ module.exports = {
   },
   output: {
 	path: `${__dirname}/dist`,
-	filename: 'bundle.min.js',
+	filename: 'bundle.js',
   },
 };
