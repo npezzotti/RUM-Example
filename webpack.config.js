@@ -7,7 +7,7 @@ module.exports = {
   plugins: [
     new webpack.SourceMapDevToolPlugin({
       noSources: false,
-      filename: 'bundle.js.map'
+      filename: '[file].map'
     }),
   ],
   optimization: {
