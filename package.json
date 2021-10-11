@@ -1,0 +1,24 @@
+{
+  "name": "rum-example",
+  "version": "1.0.0",
+  "description": "An example of how to set up Datadog RUM",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/npezzotti/RUM-Example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/npezzotti/RUM-Example/issues"
+  },
+  "homepage": "https://github.com/npezzotti/RUM-Example#readme",
+  "devDependencies": {
+    "webpack": "^5.58.1",
+    "webpack-cli": "^4.9.0"
+  }
+}
