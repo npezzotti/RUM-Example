@@ -1,7 +1,7 @@
 const webpack = require('webpack');
 
 module.exports = {
-  entry: './js/app.js',
+  entry: './static/js/app.js',
   mode: 'production',
   devtool: false,
   plugins: [
