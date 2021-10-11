@@ -20,5 +20,8 @@
   "devDependencies": {
     "webpack": "^5.58.1",
     "webpack-cli": "^4.9.0"
+  },
+  "dependencies": {
+    "@datadog/datadog-ci": "^0.17.6"
   }
 }

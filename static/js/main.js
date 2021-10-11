@@ -6,7 +6,7 @@ counter.addEventListener('click', () => {
         let newValue = Number(counter.innerText) + 1;
         counter.innerText = newValue;
     };
-    window.DD_LOGS && DD_LOGS.logger.info('Button clicked', { name: 'counter', numTimes: counter.innerText })
+    window.DD_LOGS && DD_LOGS.logger.info('Button clicked', { "name": "counter", "numTimes": counter.innerText })
 });
 
 const fakeElement = document.getElementById("does-not-exist");
